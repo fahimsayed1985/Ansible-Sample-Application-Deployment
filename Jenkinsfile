@@ -5,7 +5,7 @@ pipeline {
       stage('checkout') {
            steps {
              
-                git branch: 'master', url: 'https://github.com/devops4solutions/Ansible-Sample-Application-Deployment.git'
+                git branch: 'master', url: 'https://github.com/fahimsayed1985/Ansible-Sample-Application-Deployment.git'
              
           }
         }
