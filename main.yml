@@ -2,7 +2,7 @@
 
 - hosts: all
   become: true
-  become_pass: QOgp$@34
+  become_user: root
   gather_facts: false
   tasks:
     - include_role:
@@ -11,7 +11,7 @@
         
 - hosts: all
   become: true
-  become_pass: QOgp$@34
+  become_user: root
   gather_facts: false
   tasks:
     - include_role:
