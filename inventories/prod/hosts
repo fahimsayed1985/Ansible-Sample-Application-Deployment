@@ -1,8 +1,7 @@
-localhost
-172.31.50.137
+localhost ansible_sudo_pass='QOgp$@34'
+172.31.50.137 
 172.31.51.229
 172.31.61.112
-192.168.0.200
-192.168.0.119
-192.168.0.108
-
+192.168.0.200 ansible_sudo_pass='QOgp$@34'
+192.168.0.119 ansible_sudo_pass='QOgp$@34'
+192.168.0.108 ansible_sudo_pass='QOgp$@34'
